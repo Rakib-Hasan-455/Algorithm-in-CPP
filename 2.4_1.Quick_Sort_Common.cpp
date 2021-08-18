@@ -39,16 +39,13 @@ int main()
 {
       int array[100005], n;
       cin >> n;
-       for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)
         {
-        	cin >> array[i];
+        cin >> array[i];
       	}
-      	clock_t sortStart = clock();
-	    quickSortAccend(array, 0, n-1);
-	    clock_t sortEnd = clock();
-    double sortTime = (double)(sortEnd-sortStart)/CLOCKS_PER_SEC;
-	  for (int i = 0; i < n; i++){
+	quickSortAccend(array, 0, n-1);
+        for (int i = 0; i < n; i++){
         cout << array[i] << endl;
-    }
+    	}
     return 0;
 }
