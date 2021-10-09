@@ -1,0 +1,6 @@
+Step 1: Sort all edges in increasing order of their edge weights.
+Step 2: Repeat from step 3 to step 5 until it includes |V| - 1 edges in MST.
+Step 3: Pick the smallest edge.
+Step 4: Check if the new edge creates a cycle or loop in a spanning tree.
+Step 5: If it doesn’t form the cycle, then include that edge in MST. Otherwise, discard it.
+Step 6: Program End

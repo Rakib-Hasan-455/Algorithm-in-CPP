@@ -1,0 +1,7 @@
+Step 1: Select a starting vertex
+Step 2: Repeat Steps 3 to 5 until there are unvisited vertices
+Step 3: Find all the edges connecting to new vertices.
+Step 4: Select an least weight edge among those edges and visit vertex that has minimum weight and doesn't create cycle
+Step 5: Add the selected edge and the vertex to the minimum spanning tree
+Step 6: Print the minimum spanning tree
+Step 7: EXIT
