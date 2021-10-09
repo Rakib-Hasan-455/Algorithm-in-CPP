@@ -1,0 +1,24 @@
+Input 1:
+Bubble Sort: = Ascending : 20.152s, Descending : 20.058s
+Insert Sort: = Ascending : 5.535s, Descending : 5.693s
+Merge Sort: = Ascending : 0.05s, Descending : 0.05s
+Quick Sort: = Ascending : 0.011s, Descending : 0.012s
+Best Sorting: = Ascending : Quick Sort, Descending: Quick Sort
+
+
+Input 2:
+Bubble Sort: = Ascending : 10000s, Descending : 10000s
+Insert Sort: = Ascending : 0s, Descending : 11.127s
+Merge Sort: = Ascending : 0.044s, Descending : 0.044s
+Quick Sort: = Ascending : 0.004s, Descending : 0.005s
+Best Sorting: = Ascending : Insertion Sort, Descending: Quick Sort
+
+
+Input 3:
+Bubble Sort: = Ascending : 10000s, Descending : 10000s
+Insert Sort: = Ascending : 11.142s, Descending : 0.001s
+Merge Sort: = Ascending : 0.044s, Descending : 0.044s
+Quick Sort: = Ascending : 0.004s, Descending : 0.005s
+Best Sorting: = Ascending : Quick Sort, Descending: Insertion Sort
+
+
